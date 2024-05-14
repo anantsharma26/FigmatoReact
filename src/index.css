@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+:root {
+  --blue: #685ecd;
+  --lightblue: #685ecd38;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  display: block;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+p {
+  line-height: 28px;
+}
+.container {
+  max-width: 1482px;
+  margin: auto;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  z-index: 9;
+}
+.bannermain {
+  background: url("../src/assets/banner.jpg");
+  background-position: center center;
+  background-size: cover;
+  min-height: 500px;
+  padding: 200px 0 100px;
+  position: relative;
+}
+.bannermain::after {
+  content: "";
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: -49px;
+  border-top: 50px solid #071e3e;
+  border-right: 50px solid transparent;
+  border-left: 50px solid transparent;
+}
+header .mainhead {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  align-items: center;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li + li {
+  margin-left: 40px;
+}
+header nav ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+}
+.logo img {
+  width: 70%;
+}
+nav {
+  display: flex;
+  justify-content: right;
+}
+button {
+  cursor: pointer;
+  padding: 14px 35px;
+  font-size: 16px;
+  font-weight: 600;
+}
+button.transparent {
+  background: transparent;
+  display: block;
+  margin: 18px 0;
+  border: 1px solid #fff;
+  padding: 14px 35px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+button.colored {
+  background: linear-gradient(40deg, #3789e6, #e180b0);
+  display: block;
+  margin: 18px 0;
+  border: none;
+  padding: 14px 35px;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 50px;
+  color: #fff;
+  text-transform: uppercase;
+}
+.bannerrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+}
+.bannertext h1 {
+  font-size: 70px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.bannertext p {
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 10px;
+  line-height: 43.57px;
+}
+.bannertext button {
+  margin-top: 40px;
+}
+header.bg {
+  background: #00000085;
+}
+.howdo {
+  padding: 180px 0 0;
+}
+.equalrow {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  align-items: center;
+}
+.desbox h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--blue);
+}
+.desbox h3 {
+  font-size: 50px;
+  font-weight: 600;
+}
+.desbox p {
+  margin-top: 10px;
+}
+
+ul.dolist li {
+  padding: 8px 0;
+  position: relative;
+}
+ul.dolist {
+  column-count: 2;
+  list-style: none;
+  margin: 19px 0;
+  display: inline-block;
+}
+ul.dolist li svg {
+  padding-right: 10px;
+}
+.serv-sec {
+  padding: 100px 0;
+  background: url("../src/assets/mapbg.png");
+}
+.serv-sec .headbox {
+  text-align: center;
+}
+.headbox h3 {
+  font-size: 50px;
+  line-height: 60px;
+}
+.headbox h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--blue);
+}
+.servicerow .servicebox {
+  box-shadow: 0 0 60px 2px #e9e9e9;
+  padding: 40px 30px 80px;
+  border-radius: 30px;
+  background: #fff;
+}
+.servicerow {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+  margin-top: 50px;
+}
+.servicerow .imgbox {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background: var(--lightblue);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.servicerow h4 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}

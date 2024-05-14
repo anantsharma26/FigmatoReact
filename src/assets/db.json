@@ -1,0 +1,49 @@
+{
+  "getServices": {
+    "status": 200,
+    "message": "data fetched successfully.",
+    "data": [
+      {
+        "title": "SEO Consultancy",
+        "description": "Lorem ipsum dolor sit amet, nsectetur adipiscing elit. Praesent psum dolor.",
+        "icon": "manage_search"
+      },
+      {
+        "title": "SEO Consultancy2",
+        "description": "Lorem ipsum dolor sit amet, nsectetur adipiscing elit. Praesent psum dolor.",
+        "icon": "manage_search"
+      },
+      {
+        "title": "SEO Consultancy3",
+        "description": "Lorem ipsum dolor sit amet, nsectetur adipiscing elit. Praesent psum dolor.",
+        "icon": "manage_search"
+      },
+      {
+        "title": "SEO Consultancy4",
+        "description": "Lorem ipsum dolor sit amet, nsectetur adipiscing elit. Praesent psum dolor.",
+        "icon": "manage_search"
+      }
+    ]
+  },
+  "getusers": {
+    "status": 200,
+    "message": "data fetched successfully.",
+    "data": [
+      {
+        "title": "ppEO Consultancy",
+        "description": "Lorem ipsum dolor sit amet, nsectetur adipiscing elit. Praesent psum dolor.",
+        "icon": "manage_search"
+      },
+      {
+        "title": "SEO Consultancy2",
+        "description": "Lorem ipsum dolor sit amet, nsectetur adipiscing elit. Praesent psum dolor.",
+        "icon": "manage_search"
+      },
+      {
+        "title": "SEO Consultancy3",
+        "description": "Lorem ipsum dolor sit amet, nsectetur adipiscing elit. Praesent psum dolor.",
+        "icon": "manage_search"
+      }
+    ]
+  }
+}
